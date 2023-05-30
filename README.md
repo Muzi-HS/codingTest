@@ -1,1 +1,1 @@
-# practiceBaekjoon
+# practiceCodingTest
