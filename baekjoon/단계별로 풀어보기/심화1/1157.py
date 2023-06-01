@@ -3,7 +3,6 @@ word_list = list(set(word))
 cnt =[]
 for i in word_list:
     cnt.append(word.count(i))
-print(cnt)
 
 if cnt.count(max(cnt))>1:
     print("?")
