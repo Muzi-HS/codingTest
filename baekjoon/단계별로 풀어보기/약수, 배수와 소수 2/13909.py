@@ -1,14 +1,11 @@
 import sys
 
 input = sys.stdin.readline
-
+"""
+결과가
+111 22222 3333333
+1   4     9
+"""
 n = int(input())
 
-windows = [0]*(n+1)
-
-for i in range(2,n+1):
-    if windows[i] == 0:
-        for j in range(i+i,n+1,i):
-            windows[j] = 1
-
-print(sum(windows)+1)
+print(int(n**0.5))
